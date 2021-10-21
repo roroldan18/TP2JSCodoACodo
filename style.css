@@ -1,0 +1,79 @@
+html, body{
+    margin: 0;
+}
+
+.greenFont{
+    color:green !important;
+}
+
+.logoCodo{
+    max-width: 100px;
+}
+
+.imgFondo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./Img/ba1.jpg);
+    background-position: 0 -200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    height: 600px;
+    background-color: black;
+}
+.marginSmall{
+    margin-right: 1px;
+    margin-left: -1px;
+}
+
+.spanBox{
+    height: 100px !important;
+    width: 600px;
+    left: 1200px;
+    margin-right: 5rem;
+}
+
+.alignText{
+    text-align: right;
+}
+
+.botonGrande{
+    font-size: 22px;
+}
+
+.marginCards{
+    margin: 0 10rem;
+}
+
+.botonTag{
+    padding: 1px;
+    font-size: 13px;
+}
+.sizePlace{
+    font-size: 20px;
+}
+
+.colorBtn{
+    border: none;
+    font-size: large;
+    background-color: rgb(124, 202, 7)
+}
+
+.footerPage{
+    display: flex;
+    flex-direction: row;
+
+    height: 80px;
+    background: linear-gradient(90deg, rgba(29,55,68,1) 0%, rgba(29,82,113,1) 100%);
+}
+
+.colText{
+    display: flex;
+    font-weight:500; 
+    align-items: center;
+    justify-content: center;
+}
+
+.linkText{
+    color: white;
+    text-decoration: none;
+}
